@@ -26,5 +26,10 @@ if (name3.length > longestName.length) {
   tiedName.push(name3);
 }
 
-console.log("The longest name of three names are both: " + tiedName);
-console.log("The longest name of three names is: " + longestName);
+if (tiedNames.length === 0) {
+  console.log("The longest of the three names" + longestName);
+} else if (tiedNames.length === 1) {
+  console.log("The longest of the three names" + longestName);
+} else if (tiedNames.length === 2) {
+  console.log("The longest of the three names" + longestName);
+}
